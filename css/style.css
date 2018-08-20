@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "conduit-itc-w01-bold";
+	src: url('../fonts/conduit-itc-w01-bold.ttf');
+}
+@font-face {
+	font-family: "Muli";
+	src: url('../fonts/Muli-Light.ttf');
+}
+body{
+	font-family: 'Muli';
+}
+#coming_soon{
+	background: url(../img/353712.jpg) no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+     background-position: center;
+}
+
+#coming_soon .content{
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+	padding-top:200px;
+}
+
+#coming_soon .content h2{
+	text-transform: uppercase;
+	font-size: 100px;
+	/*font-weight: bold;*/
+	color: #fff;
+	letter-spacing: 20px;
+	font-family: 'conduit-itc-w01-bold';
+}
+
+#coming_soon .content p{
+	color:#fff;
+	font-size: 22px;
+	letter-spacing: 3px;
+	padding: 10px 0;
+}
+
+#coming_soon .footer{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+}
+
+#coming_soon .footer .content_footer{
+	text-align: center;
+}
+
+
+#coming_soon .footer .share i{
+	margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+	#coming_soon .content{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+	}
+
+	#coming_soon .content h2{
+		font-size: 40px;
+		letter-spacing: 8px;
+	}
+
+	#coming_soon .content p{
+		font-size: 16px;
+		padding: 10px 0;
+		letter-spacing: 0;
+	}
+
+	#coming_soon .footer{
+		font-size: 16px;
+	}
+
+}
+
+
